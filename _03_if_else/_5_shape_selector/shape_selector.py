@@ -18,6 +18,19 @@ if __name__ == '__main__':
         for i in range(360):
             my_turtle.forward(1)
             my_turtle.right(1)
+    if shape == "square":
+
+        for i in range(4):
+            my_turtle.forward(90)
+            my_turtle.right(90)
+
+    if shape == "rhombus":
+
+        for i in range(2):
+            my_turtle.right(45)
+            my_turtle.forward(50)
+            my_turtle.right(135)
+            my_turtle.forward(50)
     # Call the turtle .done() method
     
     window.mainloop()
