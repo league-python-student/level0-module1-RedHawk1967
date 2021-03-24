@@ -8,3 +8,7 @@ if __name__ == '__main__':
 
     num1 = simpledialog.askstring(title="",prompt="Enter a number")
     num2 = simpledialog.askstring(title="", prompt="Enter a number")
+
+    sum = float(num1) + float(num2)
+
+    messagebox.showinfo(title="",message=sum)
