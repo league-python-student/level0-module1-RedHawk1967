@@ -23,10 +23,19 @@ Text Rendering Example:
 canvas.create_text(100, 50, text="text goes here", font=("Arial", 16))
 '''
 #Put your code here
+words = "ice cream"
+yv = 30
+def print():
+    canvas.create_text(100,yv,text=words,font=("Arial", 16))
 
-
-
-
+print()
+yv=50
+print()
+yv=70
+print()
+yv=100
+words= "Banana"
+print()
 
 
 
